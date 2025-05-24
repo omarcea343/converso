@@ -1,5 +1,11 @@
-const Subsciption = () => {
-	return <div>Subsciption</div>;
+import { PricingTable } from "@clerk/nextjs";
+
+const Subscription = () => {
+	return (
+		<div>
+			<PricingTable />
+		</div>
+	);
 };
 
-export default Subsciption;
+export default Subscription;
