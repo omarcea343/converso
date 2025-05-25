@@ -43,6 +43,7 @@ const Page = () => {
 				/>
 				<CTA />
 			</section>
+			<div className="pb-8" />
 		</main>
 	);
 };
